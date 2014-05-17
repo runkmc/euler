@@ -1,2 +1,2 @@
 require 'Prime'
-Prime.prime_division 600851475143
+puts (Prime.prime_division 600851475143).sort.max[0]
