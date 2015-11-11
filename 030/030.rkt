@@ -10,5 +10,5 @@
   (lambda (n)
     (expt n 5)))
 
-(for/sum ([i (in-range 2 350000)]
+(for/sum ([i (in-range 2 355000)]
            #:when (eq? i (apply + (map power-of-five (integer-to-list i))))) i)
